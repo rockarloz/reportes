@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @history.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @history.body %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @history.photo %>
+</p>
+
+<p>
+  <strong>Show:</strong>
+  <%= @history.show %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @history.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @history.longitude %>
+</p>
+
+<p>
+  <strong>Views:</strong>
+  <%= @history.views %>
+</p>
+
+<p>
+  <strong>Report:</strong>
+  <%= @history.report %>
+</p>
+
+<p>
+  <strong>Favorite:</strong>
+  <%= @history.favorite %>
+</p>
+
+<%= link_to 'Edit', edit_history_path(@history) %> |
+<%= link_to 'Back', histories_path %>
